@@ -1,0 +1,5 @@
+- <b>Nuerons</b>  
+- <b>synapses</b>
+- <b>Perceptron</b>
+- <b>activation function</b>
+- <b></b>
