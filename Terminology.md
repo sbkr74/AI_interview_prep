@@ -6,25 +6,25 @@
 
 
 
-**Neuron:** The basic unit of an ANN, similar to a biological neuron. It receives inputs, processes them, and produces an output.  
-**Weights:** Parameters within the network that transform input data within the network’s layers. They are adjusted during training to minimize error.  
-**Bias:** A constant added to the weighted sum of inputs to help the model fit the data better.  
-**Activation Function:** A function applied to the output of a neuron to introduce non-linearity.   
+1. **Neuron:** The basic unit of an ANN, similar to a biological neuron. It receives inputs, processes them, and produces an output.  
+2. **Weights:** Parameters within the network that transform input data within the network’s layers. They are adjusted during training to minimize error.  
+3. **Bias:** A constant added to the weighted sum of inputs to help the model fit the data better.  
+4. **Activation Function:** A function applied to the output of a neuron to introduce non-linearity.   
 Common examples include 
 -   Sigmoid
 -   ReLU and 
 -   Tanh.  
 
-**Layer:** A collection of neurons. ANNs typically have an input layer, one or more hidden layers, and an output layer.  
-**Learning Rate:** A hyperparameter that controls how much the weights are adjusted during training.  
-**Epoch:** One complete pass through the entire training dataset.  
-**Backpropagation:** A method used to calculate the gradient of the loss function and update the weights.  
-**Loss Function:** A function that measures the difference between the predicted output and the actual output. Common examples include Mean Squared Error (MSE) and Cross-Entropy Loss.  
-**Overfitting:** A situation where the model performs well on training data but poorly on unseen data due to excessive complexity.  
-**Regularization:** Techniques like L1 and L2 regularization used to prevent overfitting by adding a penalty to the loss function.  
-**Dropout:** A regularization technique where randomly selected neurons are ignored during training to prevent overfitting.
+5. **Layer:** A collection of neurons. ANNs typically have an input layer, one or more hidden layers, and an output layer.  
+6. **Learning Rate:** A hyperparameter that controls how much the weights are adjusted during training.  
+7. **Epoch:** One complete pass through the entire training dataset.  
+8. **Backpropagation:** A method used to calculate the gradient of the loss function and update the weights.  
+9. **Loss Function:** A function that measures the difference between the predicted output and the actual output. Common examples include Mean Squared Error (MSE) and Cross-Entropy Loss.  
+10. **Overfitting:** A situation where the model performs well on training data but poorly on unseen data due to excessive complexity.  
+11. **Regularization:** Techniques like L1 and L2 regularization used to prevent overfitting by adding a penalty to the loss function.  
+12. **Dropout:** A regularization technique where randomly selected neurons are ignored during training to prevent overfitting.
 
-Absolutely! Here are some additional terms related to Artificial Neural Networks (ANN):
+Here are some additional terms related to Artificial Neural Networks (ANN):
 
 13. **Gradient Descent**: An optimization algorithm used to minimize the loss function by iteratively adjusting the weights in the direction of the steepest descent.
 14. **Batch Size**: The number of training examples used in one iteration of the training process.
