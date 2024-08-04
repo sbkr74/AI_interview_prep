@@ -59,3 +59,32 @@ Let's tailor the responses to focus on Computer Vision:
 17. **How do you stay current with the latest developments in data science? What sources do you rely on?**  
     *Answer:* I stay updated on computer vision by following conferences like CVPR and ICCV, reading research papers on arXiv, and participating in online communities like GitHub and Kaggle. I also follow blogs and newsletters specific to computer vision and deep learning, and I often experiment with new techniques in personal projects to apply what I’ve learned.
 
+Sure! Let's continue with more Q&A focused on computer vision.
+
+### **General Data Science Knowledge**
+
+4. **How do you evaluate the performance of a machine learning model in computer vision? What metrics do you typically use?**  
+   *Answer:* For computer vision models, the evaluation metrics depend on the specific task. For image classification, I typically use accuracy, precision, recall, and the F1 score. For object detection tasks, metrics like Intersection over Union (IoU) and mean Average Precision (mAP) are common. In segmentation tasks, metrics like Dice coefficient and pixel accuracy are useful. I also perform qualitative evaluations by visually inspecting the outputs to ensure the model is correctly identifying or segmenting the objects of interest.
+
+### **Technical Skills**
+
+7. **Explain the difference between CNNs and traditional neural networks. Why are CNNs preferred for image data?**  
+   *Answer:* CNNs, or Convolutional Neural Networks, differ from traditional neural networks because they are specifically designed to handle grid-like data, such as images. While traditional neural networks (fully connected networks) treat input data as a flat vector, CNNs use convolutional layers to exploit the spatial structure of the data. These layers automatically learn spatial hierarchies of features from low-level details like edges to high-level structures like objects. This makes CNNs more efficient and effective at capturing the spatial dependencies in images, which is why they are preferred for tasks like image classification, object detection, and segmentation.
+
+8. **How do you prevent overfitting in computer vision models?**  
+   *Answer:* To prevent overfitting in computer vision models, I use several techniques. First, data augmentation is essential; by artificially increasing the diversity of the training set with techniques like rotation, scaling, flipping, and adding noise, I can help the model generalize better. I also use regularization techniques like dropout, which randomly deactivates a subset of neurons during training, preventing the model from becoming too reliant on specific features. Additionally, early stopping can be applied to halt training when the model's performance on a validation set stops improving. Finally, using pre-trained models with transfer learning helps leverage learned features from large datasets, which can also reduce overfitting when applied to smaller datasets.
+
+### **Problem-Solving & Analytical Thinking**
+
+11. **You have a dataset of images with a significant class imbalance. How would you address this issue in your model?**  
+   *Answer:* In a computer vision context, addressing class imbalance can be crucial for model performance. I would start by augmenting the images of the minority class to create more training examples, which can help the model learn better representations of these underrepresented classes. Another approach is to adjust the class weights in the loss function, which penalizes misclassifications of the minority class more heavily, thus encouraging the model to perform better on these examples. Additionally, I might consider using techniques like oversampling the minority class or undersampling the majority class to create a more balanced training set.
+
+12. **If your computer vision model is performing poorly, what steps would you take to diagnose and improve it?**  
+   *Answer:* If a computer vision model is underperforming, I would start by checking the quality of the data and the preprocessing steps to ensure no critical issues, like poor image quality or incorrect labeling. I would then examine the model's learning curves to identify signs of overfitting or underfitting. If overfitting is the issue, I might try increasing data augmentation or applying more regularization techniques. If the model is underfitting, I might increase the complexity of the model, such as using a deeper network or a more sophisticated architecture. I would also experiment with hyperparameter tuning and consider using a different pre-trained model for transfer learning. Finally, visualizing the model's predictions can provide insights into specific failure modes, guiding further refinements.
+
+### **Real-World Application**
+
+15. **Describe a time when you had to make a decision with incomplete image data. How did you handle it, and what was the outcome?**  
+   *Answer:* During the development of an automated quality inspection system, we encountered situations where some images were partially obscured or had poor lighting, making it difficult for the model to detect defects accurately. To handle this, I used data augmentation techniques to simulate these conditions during training, helping the model become more robust. I also implemented a confidence threshold for the model's predictions—if the confidence was below a certain level, the system would flag the image for manual review rather than automatically passing or rejecting it. This approach ensured that the model's decisions were reliable, even in challenging conditions, and it reduced the rate of missed defects while maintaining a low false-positive rate.
+
+---
