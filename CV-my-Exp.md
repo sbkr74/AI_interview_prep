@@ -2,7 +2,7 @@ Certainly! Here's an explanation of each term in the context of image classifica
 
 ### 1. **Accuracy**
    - **Definition**: Accuracy measures the proportion of correctly classified images out of the total number of images.
-   - **Formula**:   
+   - **Formula**: 
      \[
      \text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Number of Samples}}
      \]
@@ -10,7 +10,7 @@ Certainly! Here's an explanation of each term in the context of image classifica
 
 ### 2. **Precision**
    - **Definition**: Precision measures the proportion of correctly classified positive instances out of all instances that were classified as positive.
-   - **Formula**:   
+   - **Formula**: 
      \[
      \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}
      \]
@@ -18,7 +18,7 @@ Certainly! Here's an explanation of each term in the context of image classifica
 
 ### 3. **Recall (Sensitivity or True Positive Rate)**
    - **Definition**: Recall measures the proportion of correctly classified positive instances out of all actual positive instances.
-   - **Formula**:   
+   - **Formula**: 
      \[
      \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
      \]
@@ -26,7 +26,7 @@ Certainly! Here's an explanation of each term in the context of image classifica
 
 ### 4. **F1 Score**
    - **Definition**: The F1 score is the harmonic mean of precision and recall, providing a balance between the two.
-   - **Formula**:   
+   - **Formula**: 
      \[
      \text{F1 Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
      \]
