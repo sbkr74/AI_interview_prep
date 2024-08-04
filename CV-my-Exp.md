@@ -3,33 +3,27 @@ Certainly! Here's an explanation of each term in the context of image classifica
 ### 1. **Accuracy**
    - **Definition**: Accuracy measures the proportion of correctly classified images out of the total number of images.
    - **Formula**:   
-     \[
-     \text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Number of Samples}}
-     \]
+    ![alt text](./formula/image-1.png)
      
    - **Explanation**: It gives an overall idea of how many predictions were correct. However, in the case of imbalanced datasets (where one class significantly outnumbers the others), accuracy can be misleading.
 
 ### 2. **Precision**
    - **Definition**: Precision measures the proportion of correctly classified positive instances out of all instances that were classified as positive.
    - **Formula**:   
-     \[
-     \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}
-     \]
+    ![alt text](./formula/image-2.png)
    - **Explanation**: High precision means that the classifier has a low false positive rate. It's particularly important when the cost of a false positive is high (e.g., in medical diagnoses, where a positive test could lead to unnecessary treatment).
 
 ### 3. **Recall (Sensitivity or True Positive Rate)**
    - **Definition**: Recall measures the proportion of correctly classified positive instances out of all actual positive instances.
    - **Formula**:   
-     ![image](https://github.com/user-attachments/assets/86413e23-33a5-4210-a086-601da835c8a8)
+    ![alt text](./formula/image-3.png)
 
    - **Explanation**: High recall means that the classifier captures most of the positive cases. It is crucial when missing a positive case (false negative) has significant consequences (e.g., failing to detect a disease).
 
 ### 4. **F1 Score**
    - **Definition**: The F1 score is the harmonic mean of precision and recall, providing a balance between the two.
    - **Formula**:   
-     \[
-     \text{F1 Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-     \]
+    ![alt text](./formula/image-4.png)
    - **Explanation**: The F1 score is useful when you want to find a balance between precision and recall. It's particularly valuable when you have an imbalanced dataset and need to consider both false positives and false negatives.
 
 In summary:
