@@ -2,10 +2,11 @@ Certainly! Here's an explanation of each term in the context of image classifica
 
 ### 1. **Accuracy**
    - **Definition**: Accuracy measures the proportion of correctly classified images out of the total number of images.
-   - **Formula**: 
-     \[
+   - **Formula**:   
+    $$ \[
      \text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Number of Samples}}
      \]
+     $$
    - **Explanation**: It gives an overall idea of how many predictions were correct. However, in the case of imbalanced datasets (where one class significantly outnumbers the others), accuracy can be misleading.
 
 ### 2. **Precision**
