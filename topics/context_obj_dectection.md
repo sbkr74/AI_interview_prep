@@ -2,9 +2,7 @@
 **IoU** is a metric used to measure the overlap between two bounding boxes: the predicted bounding box and the ground truth bounding box.
 
 - **Formula:**  
-  \[
-  \text{IoU} = \frac{\text{Area of Overlap}}{\text{Area of Union}}
-  \]
+  ![alt text](../formula/image5.png)  
   Where:
   - **Area of Overlap:** The area where the predicted bounding box and the ground truth bounding box intersect.
   - **Area of Union:** The total area covered by both the predicted and ground truth bounding boxes.
@@ -29,10 +27,8 @@
 3. **Calculate mAP:** Take the mean of AP values across all classes.
 
 - **Formula:**
-  \[
-  \text{mAP} = \frac{1}{N} \sum_{i=1}^{N} \text{AP}_i
-  \]
-  Where \( N \) is the number of classes, and \( \text{AP}_i \) is the Average Precision for class \( i \).
+  ![alt text](../formula/image6.png)  
+  Where *N* is the number of classes, and AP<sub>*i*</sub> is the Average Precision for class *i*.
 
 - **Interpretation:**
   - **mAP = 1:** Perfect model, indicating perfect precision and recall.
