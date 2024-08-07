@@ -2,13 +2,11 @@
 **Dice Coefficient** (also known as the Dice Similarity Coefficient or DSC) is a metric used to measure the similarity between two sets, commonly used in image segmentation tasks to evaluate the overlap between the predicted segmentation mask and the ground truth mask.
 
 - **Formula:**  
-  \[
-  \text{Dice Coefficient} = \frac{2 \times |A \cap B|}{|A| + |B|}
-  \]
+ ![alt text](../formula/image7.png)  
   Where:
-  - \( |A \cap B| \) is the number of pixels in both the predicted and ground truth masks (i.e., the intersection).
-  - \( |A| \) is the number of pixels in the predicted mask.
-  - \( |B| \) is the number of pixels in the ground truth mask.
+  - |A &cup; B| is the number of pixels in both the predicted and ground truth masks (i.e., the intersection).
+  - |A| is the number of pixels in the predicted mask.
+  - |B| is the number of pixels in the ground truth mask.
 
 - **Interpretation:**
   - **Dice Coefficient = 1:** Perfect overlap between the predicted and ground truth masks.
@@ -21,9 +19,8 @@
 **Pixel Accuracy** is a simple metric used to evaluate the performance of segmentation models by calculating the proportion of correctly classified pixels in the image.
 
 - **Formula:**  
-  \[
-  \text{Pixel Accuracy} = \frac{\text{Number of Correctly Classified Pixels}}{\text{Total Number of Pixels}}
-  \]
+  ![alt text](../formula/image8.png)
+
 
 - **Interpretation:**
   - **Pixel Accuracy = 1:** All pixels are correctly classified.
